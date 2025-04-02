@@ -1,0 +1,487 @@
+/*tag selectors*/
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/cork-texture-1.jpg);
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+}
+img {
+  height: 300px;
+  width: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*css for head section of website*/
+.siteHead {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(images/note-paper-png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px 400px;
+  margin-top: 0;
+  filter: drop-shadow(6px 6px 8px black);
+  position: relative;
+  padding: 0px;
+}
+.sitename {
+  text-align: center;
+  color: #3768FA;
+  position: relative;
+  padding: 150px;
+}
+/*css for the navigation bar*/
+nav{
+  width: 100%;
+  height: 300px;
+}
+.stickyContLeft {
+  display: block;
+  position: relative;
+  width: 20%;
+  height: 280px;
+  float: left;
+  transform: rotate(10deg);
+  filter: drop-shadow(6px 6px 8px black);
+  margin-bottom: 50px;
+}
+.stickyContLeft:hover {
+  transform: rotate(-5deg);
+  transition-duration: .5s;
+}
+.stickyContRight {
+  display: block;
+  position: relative;
+  width: 20%;
+  height: 280px;
+  float: left;
+  transform: rotate(-10deg);
+  filter: drop-shadow(6px 6px 8px black);
+  margin-bottom: 50px;
+}
+.stickyContRight:hover{
+  transform: rotate(5deg);
+  transition-duration: .5s;
+}
+.stickytextLeft{
+  position: absolute;
+  color: #FA492E;
+  font-size: 23px;
+  margin-top: -170px;
+  margin-left: 80px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stickytextRight{
+  position: absolute;
+  color: #FA492E;
+  font-size: 23px;
+  text-align: center;
+  margin-top: -170px;
+  margin-left: 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*css for home page hero image*/
+.heroimg {
+  height: 500px;
+  width: auto;
+  display: block;
+  margin-bottom: 80px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(10deg);
+  filter: drop-shadow(6px 6px 8px black);
+}
+.heroimg:hover{
+  transform: rotate(0deg);
+  transition-duration: .5s;
+}
+/*css for home page body and text*/
+.homeCont{
+  min-width: 910px;
+  max-width: 1900px;
+  min-height: 1200px;
+  margin: 0 auto;
+}
+.homeCollum{
+  display: block;
+  width: 900px;
+  min-height: 1200px;
+  position: relative;
+  padding: 0px;
+  float: left;
+  overflow: hidden;
+}
+.homeHead {
+  position: absolute;
+  padding: 5px;
+  width: 100%;
+  height: 300px;
+  filter: drop-shadow(6px 6px 8px black);
+  margin: 0;
+  background-image: url(images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+}
+.homeHead h2{
+  position: absolute;
+  font-size: 35px;
+  color: #FA492E;
+  margin-top: 120px;
+  margin-left: 40%;
+  margin-right: 40%;
+  height: 150px;
+  width: auto;
+  line-height: 36px;
+  font-family: 'Cabin Sketch', cursive;
+}
+.homeP{
+  position: absolute;
+  margin-top: 310px;
+  height: 900px;
+  width: 100%;
+  background-image: url(images/morePaper.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.homeP p{
+  color: #3768FA;
+  font-family: 'Dekko', cursive;
+  position: absolute;
+  font-size: 25px;
+  margin-top: 155px;
+  margin-left: 168px;
+  width: 70%;
+  height: 650px;
+  line-height: 55px;
+}
+/*css for each sub pages hero image section*/
+
+/*pc options*/
+.subHead-pc {
+  position: relative;
+  height: 400px;
+  width: 630px;
+	margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+	background-image: url(images/pcOptionsHead.jpg);
+  background-repeat: no-repeat;
+	display: flex;
+  justify-content: center;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subHead-pc h1{
+  position: relative;
+  color: #FA492E;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 100px;
+}
+/*free plans*/
+.subHead-fr {
+  position: relative;
+  height: 400px;
+  width: 630px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  background-image: url(images/freePlansHead.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subHead-fr h1{
+  position: relative;
+  color: #FA492E;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 100px;
+}
+/*your projects*/
+.subHead-u {
+  position: relative;
+  height: 400px;
+  width: 630px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  background-image: url(images/yourProjectsHead.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subHead-u h1{
+  position: relative;
+  color: #FA492E;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 100px;
+}
+/*emulation*/
+.subHead-em {
+  position: relative;
+  height: 400px;
+  width: 630px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  background-image: url(images/emulationHead.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subHead-em h1{
+  position: relative;
+  color: #3768FA;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 100px;
+}
+/*materials*/
+.subHead-ma {
+  position: relative;
+  height: 400px;
+  width: 630px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  background-image: url(images/materialsHead.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subHead-ma h1{
+  position: relative;
+  color: #3768FA;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 100px;
+}
+/*css for sub pages body and text*/
+.subcont{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: block;
+  width: 1300px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subcont h2{
+  font-size: 35px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #FA492E;
+  padding-top: 80px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-top: 0px;
+  background-image: url(images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subimg img{
+  display: block;
+  width: auto;
+  height: 400px;
+  float: left;
+  margin-right: 50px;
+  margin-left: 180px;
+  transform: rotate(5deg);
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subimg img:hover {
+  transform: rotate(-5deg);
+  transition-duration: .5s;
+}
+.subcontp{
+  display: block;
+  width: 700px;
+  height: 480px;
+  float: left;
+  background-image: url(images/morePaper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px 600px;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subcontp p{
+  margin-left: 80px;
+  margin-right: 35px;
+  margin-top: 40px;
+  height: 400px;
+  font-size: 22px;
+  color: #3768FA;
+  font-family: 'Dekko', cursive;
+  line-height: 37px;
+}
+.subimgright img{
+  display: block;
+  width: auto;
+  height: 400px;
+  float: right;
+  margin-left: 50px;
+  margin-right: 180px;
+  transform: rotate(-5deg);
+  filter: drop-shadow(6px 6px 8px black);
+}
+.subimgright img:hover {
+  transform: rotate(5deg);
+  transition-duration: .5s;
+}
+/*css for free plans image*/
+.plans{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+.plans img{
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  filter: drop-shadow(6px 6px 8px black);
+}
+/*css for checklist at bottom of free plans page*/
+.checklist{
+  height: 240px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  filter: drop-shadow(6px 6px 8px black);
+  padding: 20px;
+}
+.checklist h1{
+  color: #1F160C;
+  font-size: 35px;
+  font-family: 'Cabin Sketch', cursive;
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.checklistcollom{
+  width: 445px;
+  height: 200px;
+  float: left;
+  font-size: 24px;
+  font-family: 'Cabin Sketch', cursive;
+  text-align: left;
+}
+/*css for facebook group link*/
+.faceNote{
+  width: 1300px;
+  height: 250px;
+  background-image: url(images/header.png);
+  margin: 30px auto;
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  background-position: left;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.faceNote p{
+  position: absolute;
+  color: #1F160C;
+  font-size: 25px;
+  font-family: 'Cabin Sketch', cursive;
+  width: 450px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 190px;
+}
+/*css for your projects page body and text*/
+.your{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: block;
+  width: 1300px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.yourR img{
+  display: block;
+  width: auto;
+  height: 400px;
+  float: right;
+  margin-left: 50px;
+  margin-right: 180px;
+  transform: rotate(-5deg);
+  filter: drop-shadow(6px 6px 8px black);
+}
+.yourR img:hover {
+  transform: rotate(5deg);
+  transition-duration: .5s;
+}
+.yourimg img{
+  display: block;
+  width: auto;
+  height: 400px;
+  float: left;
+  margin-right: 50px;
+  margin-left: 180px;
+  transform: rotate(5deg);
+  filter: drop-shadow(6px 6px 8px black);
+}
+.yourimg img:hover {
+  transform: rotate(-5deg);
+  transition-duration: .5s;
+}
+.yourp{
+  display: block;
+  width: 700px;
+  height: 480px;
+  float: left;
+  background-image: url(images/morePaper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px 600px;
+  filter: drop-shadow(6px 6px 8px black);
+}
+.yourp p{
+  margin-left: 80px;
+  margin-right: 35px;
+  margin-top: 40px;
+  height: 400px;
+  font-size: 22px;
+  color: #3768FA;
+  font-family: 'Dekko', cursive;
+  line-height: 37px;
+}
+/*css for site footer*/
+footer {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-image: url(images/morePaper.png);
+  background-size: 880px 720px;
+  background-repeat: no-repeat;
+  background-position: center -32px;
+  padding-top: 65px;
+  padding-bottom: 10px;
+}
+footer p {
+  text-align: center;
+  color: #1F160C;
+  font-family: 'Dekko', cursive;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+/*colloring for external links*/
+.red {
+  color: #FA492E;
+}
